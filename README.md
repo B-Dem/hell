@@ -42,5 +42,3 @@ code - VS code, GitHub, and CodePen (frontend).
 inspiration - 3kh0 and interstellar
 
 support - all of you!
-
-# Bottom Page
