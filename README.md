@@ -1,7 +1,3 @@
-# Getting Archived as of 1/22/24.
-
-For more info, browse down.
-
 # Hell
 
 Tired of games and searching being blocked?
@@ -48,14 +44,3 @@ inspiration - 3kh0 and interstellar
 support - all of you!
 
 # Bottom Page
-
-I'm not leaving forever, but this project will get archived. If you use any of the code, please credit me or the original owners.
-
-This was a massive learning experience for me. I'm thankful for everyone who supported me along the way and still use this project. 
-
-This won't officially get archived, since I might add a bit of code here and there. But I will stop working on this for the long run.
-
-Again, thank you everyone for everything. All of you are way more than I could ever ask for. It was nice working on this project, 
-
-- dachxd
-
