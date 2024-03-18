@@ -2,7 +2,8 @@
 
 Tired of games and searching being blocked?
 
-Then use Hell! With over 260+ unblocked games and even a working ultraviolet proxy, bypassing has never been so much easier. It has almost everything you would want in a game site! 
+Then use Hell! 
+With over 260+ unblocked games and even a (non)working ultraviolet proxy, bypassing has never been so much easier. It has almost everything you would want in a game site! 
 
 # Why hell?
 
@@ -19,9 +20,7 @@ Then use Hell! With over 260+ unblocked games and even a working ultraviolet pro
 ## Links / Mirrors
 
 
-[All links in instances will go down soon. New link in description.](https://instances.d3ch.repl.co)
-
-Did you make a link and would like to share it? Post it [here!](https://forms.gle/gwxTCDRzZQRo5toH7)
+My version is ig the only one left of Hell if you got one send it to me.
 
 
 ## Self Deploy
@@ -32,13 +31,14 @@ Did you make a link and would like to share it? Post it [here!](https://forms.gl
 
 # Credits 
 
-game sources - itch.io, scratch, 3kh0, binbashbanana, lbannana, VyperGroup and classroom 6x
+Games sources - : itch.io, scratch, 3kh0, binbashbanana, lbannana, VyperGroup and classroom 6x
 
-proxy source - tiw (source code) titanium network, and ultraviolet. tomp.app for bare
+Proxy source - tiw (source code) titanium network, and ultraviolet. tomp.app for bare
 
+Coded with : VS Code, GitHub, and CodePen (frontend).
 
-code - VS code, GitHub, and CodePen (frontend).
+Inspiration - 3kh0 and interstellar
 
-inspiration - 3kh0 and interstellar
+Support : All of you!
 
-support - all of you!
+Originally created by [D3ch](https://github.com/d3ch/hell)
