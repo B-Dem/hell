@@ -5,6 +5,7 @@ const subtitles = [
     "Memz On Top !",
     "Hell is fun (The Website)",
     "Want a Discord server ?",
+    "github.com/B-Dem/hell",
 ];
 
 function xd() {
