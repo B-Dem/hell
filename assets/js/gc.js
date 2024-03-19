@@ -1,6 +1,8 @@
 const gameData = [
     { id: 1, title: "More Games Coming soon..", link: "/" },
 
+    { id: 1, title : "New Games !", link: "/" },
+    { id: 0, title: "Stephen Hawking : Ultimate Wheelchair", link: "/games/stephen" },
     { id: 0, title: "1v1 lol", link: "/games/1v1lol" },
     { id: 2, title: "1", link: "/games/1" },
     { id: 0, title: "10 Minutes Till Dawn", link: "/games/10-minutes-till-dawn" },
