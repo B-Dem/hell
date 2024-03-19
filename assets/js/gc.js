@@ -21,7 +21,6 @@ const gameData = [
     { id: 0, title: "Bad Ice Cream", link: "/games/bad-ice-cream/" },
     { id: 0, title: "Bad Ice Cream 2", link: "/games/bad-ice-cream-2/" },
     { id: 0, title: "Bad Ice Cream 3", link: "/games/bad-ice-cream-3/" },
-    { id: 1, title: "Baldi's Basics cannot be added. (too big files)", link: "/games/baldis-ultimate/" },
 
     { id: 0, title: "Bacon May Die 2016", link: "/games/bacon-may-die/" },
     { id: 0, title: "Basketball Stars", link: "/games/basketball-stars/" },
@@ -67,7 +66,6 @@ const gameData = [
     { id: 0, title: "Drive Mad", link: "/games/drive-mad/" },
     { id: 0, title: "Doodle Jump", link: "/games/doodle-jump/" },
     { id: 0, title: "Doom 2", link: "/games/external/doom2" },
-    { id: 1, title: "Doom Blocked? Browse Down to GBA.", link: "/games/gba/launcher#" },
     { id: 0, title: "Drift Hunters", link: "/games/drift-hunters/" },
     { id: 0, title: "Dumb Ways to Die", link: "/games/dumbwaystodie/dumbwaystodie" },
     { id: 0, title: "Dreader", link: "/games/dreader/" },
@@ -85,7 +83,6 @@ const gameData = [
     { id: 0, title: "Fireboy Watergirl 3", link: "/games/fbwg3/" },
     { id: 0, title: "Fireboy Watergirl 4", link: "/games/fbwg4/" },
     { id: 0, title: "Fireboy Watergirl 5", link: "/games/fbwg5/" },
-    { id: 1, title: "More FNF coming soon!", link: "/games/2048/" },
 
     { id: 0, title: "Friday Night Funkin", link: "/games/fnf/" },
     { id: 0, title: "Five Nights at Winstons", link: "/games/fnaw/" },
@@ -167,12 +164,10 @@ const gameData = [
 
     { id: 0, title: "Particle Clicker", link: "/games/particleclicker/" },
     { id: 0, title: "Picohot", link: "/games/picohot/" },
-    { id: 1, title: "Pizza Tower is located in Apps.", link: "/games/picohot/" },
 
     { id: 0, title: "Pixel Gun Survival", link: "/games/pixel-gun-survival/" },
     { id: 0, title: "Push The Square", link: "/games/push-the-square/" },
     { id: 0, title: "Pixel Gun Apocalypse 2", link: "/games/pixelgun/" },
-    { id: 1, title: "I cannot add roblox.", link: "/games/raftwars/" },
 
     { id: 0, title: "Raft Wars", link: "/games/raftwars/" },
     { id: 0, title: "Riddle School", link: "/games/riddleschool/" },
@@ -188,8 +183,6 @@ const gameData = [
     { id: 0, title: "Retro Bowl", link: "/games/retro/" },
     { id: 0, title: "Retro Bowl Hacked", link: "/games/retro-hacked/" },
 
-    { id: 1, title: "Shell Shockers have been moved to apps.", link: "/games/shellshock/" },
-
     { id: 0, title: "Subway Surfers San Francisco", link: "/games/subwaysurfers-sf/" },
     { id: 0, title: "Subway Surfers Beijing", link: "/games/subway-surfers-beijing/" },
     { id: 0, title: "Santy is Here", link: "/games/santy/" },
@@ -197,7 +190,6 @@ const gameData = [
     { id: 0, title: "Slope", link: "/games/slope/" },
     { id: 0, title: "Slope 2", link: "/games/slope-2/" },
     { id: 0, title: "Smash Karts", link: "/games/smashkarts-main/" },
-    { id: 1, title: "Stumble Guys is located in apps.", link: "/games/snow-rider3d/" },
 
     { id: 0, title: "Snow Rider 3D", link: "/games/snow-rider3d/" },
     { id: 0, title: "Soccer Heads", link: "/games/soccerheads/" },
@@ -296,7 +288,6 @@ const gameData = [
     { id: 0, title: "Age Of War", link: "/games/flash/?swf=Age_of_war.swf" },
     { id: 0, title: "Binding Of Issac", link: "/games/flash/?swf=boi.swf" },
     { id: 0, title: "Bloons", link: "/games/flash/?swf=bloons.swf" },
-    { id: 1, title: "Bloons 2 and Player Pack 2 coming soon.", link: "/games/flash/?swf=bloxorz.swf" },
 
     { id: 0, title: "Bloons Player Pack 1", link: "/games/flash/?swf=bloonspp1.swf" },
     { id: 0, title: "Bloons TD 5", link: "/games/flash/?swf=bloons-tower-defense-5.swf" },
@@ -333,7 +324,6 @@ const gameData = [
     { id: 0, title: "Surviv IO", link: "/games/starve.io/" },
     { id: 0, title: "Paper IO 2", link: "/games/paperio2/" },
     { id: 0, title: "Territorial IO", link: "/games/territorial.io/" },
-    { id: 1, title: "Zombs.IO cannot be added.", link: "/games/2048/" },
 
 
 ];
