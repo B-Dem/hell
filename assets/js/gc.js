@@ -134,8 +134,8 @@ const gameData = [
     { id: 0, title: "Mario 64", link: "/games/mario64/sm64/" },
     { id: 0, title: "Mario Kart 64", link: "/games/external/mario/mk64" },
 
-    { id: 0, title: "Mandalin Stunt Cars 2", link: "/games/mandalin-stunt-cars-2/" },
-    { id: 0, title: "Mandalin Stutn Cars 3", link: "/games/mandalin-stunt-cars-3/" },
+    { id: 0, title: "Madalin Stunt Cars 2", link: "/games/madalin-stunt-cars-2/" },
+    { id: 0, title: "Madalin Stutn Cars 3", link: "/games/madalin-stunt-cars-3/" },
     { id: 0, title: "Minecraft", link: "/games/minecraft-18/" },
     { id: 1, title: "Want Minecraft Singleplayer? Browse up to Eaglercraft.", link: "/games/minecraft-18/" },
     
