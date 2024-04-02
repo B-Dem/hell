@@ -41,7 +41,7 @@ const gameData = [
     { id: 0, title: "Bloxors", link: "/games/bloxors/" },
     { id: 0, title: "Burrito Bison Launcha Libre", link: "/games/bb/" },
 
-    { id: 0, title: "Bob The Robber", link: "/games/bobtherobber/" },
+    { id: 0, title: "Bob The Robber 2", link: "/games/bobtherobber2/" },
     { id: 0, title: "Bottle Flip 3D", link: "/games/bottle-flip-3d/" },
     { id: 0, title: "Cannon Basketball 4", link: "/games/cannon-basketball-4/" },
     { id: 0, title: "Cell Machine", link: "/games/cell-machine/" },
