@@ -117,7 +117,7 @@ const gameData = [
     { id: 0, title: "Run 3", link: "/games/run3/" },
     { id: 0, title: "Game Inside a Game", link: "/games/game-inside/" },
     { id: 0, title: "Getaway Shootout", link: "/games/getaway-shootout/" },
-    { id: 0, title: "Happy Wheels", link: "/games/happwheels/" },
+    { id: 0, title: "Happy Wheels", link: "/games/happywheels/" },
     { id: 0, title: "Horde Killer", link: "/games/horde-killer-you-vs-100/" },
     { id: 0, title: "House of Hazards", link: "/games/hoh/" },
 
