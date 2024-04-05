@@ -19,9 +19,11 @@ With over 260+ unblocked games and even a (non)working ultraviolet proxy, bypass
 
 ## Links / Mirrors
 
+Official Link : 
+[He1l on Netlify](https://he1l.netlify.app/)
+[Hel1 on Vercel](https://hel1.vercel.app/)
 
-My version is ig the only one left of Hell if you got one send it to me.
-
+If you got any other reupload create an issue or send it to me.
 
 ## Self Deploy
 
