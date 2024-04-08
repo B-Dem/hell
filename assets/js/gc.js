@@ -4,7 +4,7 @@ const gameData = [
     { id: 1, title : "New Games !", link: "/" },
     { id: 0, title: "Stephen Hawking : Ultimate Wheelchair", link: "/games/stephen" },
     { id: 0, title: "Supra Mayro Bross - Legend of the Lost Kingdom", link: "/games/mayro" },
-    { id: 0, title: "Tanuki Sunset", link"/games/tanukiracoon" },
+    { id: 0, title: "Tanuki Sunset", link: "/games/tanukiracoon" },
     { id: 0, title: "1v1 lol", link: "/games/1v1lol" },
     { id: 2, title: "1", link: "/games/1" },
     { id: 0, title: "10 Minutes Till Dawn", link: "/games/10-minutes-till-dawn" },
