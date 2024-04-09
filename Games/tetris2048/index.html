@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2048 Tetris</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+  <meta property="og:title" content="2048 Tetris"/>
+  <meta property="og:site_name" content="2048 Tetris"/>
+  <meta property="og:description" content="2048 with the awesomeness of Tetris! Careful: this game is extremely addictive!"/>
+</head>
+<!-- body starts here-->
+<body>
+  <div class="next-tile-container"></div>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048 Tetris</h1>
+      <div class="scores-container">
+        <div class="pause-container" onclick="pause();" id = "Pause" title="Spacebar">||</div>
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+      <div class="levels-container">
+        <input type="radio" onclick="setLevel(0)" value="Easy" name="level" id="levele">
+        <label for="levele">Easy</label>
+        <input type="radio" onclick="setLevel(1)" value="Medium" name="level" id="levelm" checked>
+        <label for="levelm">Medium</label>
+        <input type="radio" onclick="setLevel(2)" value="Hard" name="level" id="levelh">
+        <label for="levelh">Hard</label>
+      </div>
+        <!-- <input type="button" style="margin:10px" onclick="pause();" value="Pause" id="Pause"> -->
+    </div>
+    <span style="font-size: 12px; padding-left: 16px">
+    Tip: Falling tile can be collapsed in left/right directions till timeout. Press Space to pause</span>
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+          <div class="score-sharing"></div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell invi"></div>
+          <div class="grid-cell invi"></div>
+          <div class="grid-cell invi"></div>
+          <div class="grid-cell invi"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+        <p class="game-intro">Collapse the falling blocks in left, right or downward direction and get to the <strong>2048 tile!</strong></p>
+    </p>
+    <hr>
+  </div>
+
+  <script type='text/javascript' > 
+    window.timeOut = 700; 
+    window.autoFall = null;
+    window.moveObj = null;
+    window.trySlideDown = null;
+    window.EASY = 0.95;
+    window.MEDIUM = 0.90;
+    window.HARD = 0.85;
+    window.FACTOR = window.MEDIUM;
+  </script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_score_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+
+<script>
+  function pause() {
+    var elem = document.getElementById("Pause");
+    if(elem.innerHTML == "||") {
+     window.clearTimeout(window.autoFall);
+      elem.innerHTML = "&#9658;";
+      elem.setAttribute('class','pause-container paused');
+    } else {
+      window.autoFall = setTimeout(function(){window.moveObj.move(4);}, window.timeOut);
+      elem.innerHTML = "||";
+      elem.setAttribute('class','pause-container');
+    }
+  }
+
+  window.onblur = function() {
+      var elem = document.getElementById("Pause");
+      if ( elem.innerHTML == "||" ) {
+          console.log("Game paused");
+          pause();
+      }
+  }
+
+  function setLevel(val) {
+    switch(val) {
+      case 0: window.FACTOR = window.EASY;
+              break;
+      case 2: window.FACTOR = window.HARD;
+              break;
+      default:
+              window.FACTOR = window.MEDIUM;
+    }
+  }
+</script>
+</body>
+</html>
