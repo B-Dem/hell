@@ -25,6 +25,8 @@ Official Link :
 
 [Hel1 on Vercel](https://hel1.vercel.app/)
 
+[Hel1 on OnRender](https://he1l.onrender.com/)
+
 If you got any other reupload create an issue or send it to me.
 
 ## Self Deploy
